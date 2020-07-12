@@ -40,31 +40,7 @@ function nextSequence() {
     }
 
 
-    // Makes button flash/emit sound
-// function buttonFlashSound(color)  {
-//     if (color === buttonColours[0]) {
-//         $("#green").fadeOut(250).fadeIn(250);
-//         const green = new Audio('/sounds/green.mp3');
-//         green.play();
-//     } 
-//     else if (color === buttonColours[1]) {
-//         $("#red").fadeOut(250).fadeIn(250);
-//         const red = new Audio('/sounds/red.mp3');
-//         red.play();
-//     } 
-//     else if (color === buttonColours[2]) {
-//         $("#yellow").fadeOut(250).fadeIn(250);
-//         const yellow = new Audio('/sounds/yellow.mp3');
-//         yellow.play();
-//     }
-//      else {
-//         $("#blue").fadeOut(250).fadeIn(250);
-//         const blue = new Audio('/sounds/blue.mp3');
-//         blue.play();
-//     };
-
-// 
-
+// Makes button flash/emit sound
 function buttonFlashSound(color)  {
     switch (color) {
         case "green": 
